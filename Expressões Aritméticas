@@ -1,0 +1,55 @@
+Expressões Aritméticas
+Agora faremos a relação da lógica de programação com a tão temida matemática. Você pode estar se perguntando, qual o sentido dessa relação?
+Veja bem, no algoritmo resolvemos problemas humanamente difíceis, custosos ou repetitivos, sendo, em sua maioria, rotinas de cálculos. Portanto a matemática estará inserida em nossas instruções a fim de nos auxiliar a resolver problemas. Por exemplo, um computador consegue fazer a média de 15+18+43+50+2+44+78 muito mais rápido do que um humano.
+
+Matematica
+Então, assim como na matemática, expressões aritméticas em algoritmo são basicamente a mesma coisa, ou seja, são um conjunto de símbolos que representam as operações básicas da matemática, que são:
+
++ = Adição
+- = Subtração
+* = Multiplicação
+/ = Divisão
+
+
+Expressões Aritméticas
+Ok, então recapitulamos o que são os operadores e do que se tratam as expressões aritméticas. 
+Agora vamos aos exemplos:
+
+2+3+4+1-9 = 1
+10*3-5 = 25
+(3-1)*(3+2)/2 = 5
+22-10*(8-4) = -18
+
+Até agora nada de novo, não é? Então, veremos como podemos utilizar essas expressões em nossos algoritmos utilizando as variáveis.
+
+ var
+  n1,n2,n3,media: Real
+1) Primeiramente, declaramos as variáveis que iremos utilizar no nosso algoritmo.
+
+inicio
+n1 <- 10
+n2 <- 8
+n3 <- 7.5
+2) Em seguida, inicio meu algoritmo e atribuo os valores que eu quero para as minhas variáveis.
+
+media <- (n1+n2+n3) /3
+escreva(media)
+fimalgoritmo
+3) Feito isso, eu posso criar minha expressão aritmética, no exemplo acima estou fazendo a média de três notas, em seguida mostrando na tela.
+
+Então nosso algoritmo ficará da seguinte forma:
+algoritmo "aritmetica"
+ var
+  n1,n2,n3,media: Real
+inicio
+  n1 <- 10
+  n2 <- 8
+  n3 <- 7.5
+  media <- (n1+n2+n3) /3
+  escreva (media)
+fimalgoritmo
+
+Expressões aritméticas são aquelas que, utilizando operadores aritméticos, resultam em um valor inteiro ou real. Ou seja, o resultado sempre será um número, seja ele do tipo real ou do tipo inteiro.
+Então, vimos como são e como aplicar expressões aritméticas em nossos algoritmos.
+Nossa calculadora será baseada em expressões aritméticas com todos os operadores vistos aqui.
+
