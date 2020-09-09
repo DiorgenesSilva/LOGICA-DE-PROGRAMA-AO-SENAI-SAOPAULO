@@ -1,0 +1,65 @@
+Algoritmos
+Inicialmente, iremos entender o que é um algoritmo, e quais os exemplos que vivenciamos todos os dias.
+
+Em seguida, mudaremos o foco dos algoritmos do dia a dia para algoritmos na computação e programação, veremos os tipos existentes de algoritmos e alguns exemplos práticos.
+
+Depois que tivermos os primeiros conceitos prontos, daremos início às partes funcionais da nossa calculadora!
+
+O que é algoritmo?
+Um algoritmo é uma sequência de instruções que utilizamos para solucionar um ou vários problemas, ou até mesmo realizar tarefas do dia a dia.
+Um algoritmo não é necessariamente um programa computacional, pode ser passos que iremos tomar para realizar determinada tarefa.
+O algoritmo deve sempre chegar ao resultado final esperado, caso não chegue, o mesmo não pode ser considerado finalizado.
+Vamos exemplificar um pouco...
+
+Exemplos de algoritmos do dia-a-dia
+Lâmpada
+Trocar Lâmpada
+  Inicio 
+    Pegue uma escada 
+    Abra a escada embaixo da lampada velha 
+    Suba na escada 
+    Retire a lampada velha 
+    Desça da escada 
+    Descarte a lampada 
+    Pegue a Lâmpada nova  
+    suba novamente na escada 
+    Instale a nova lampada 
+    Desça da escada 
+    Guarde a escada 
+  FIm    
+
+
+Café
+Preparar café
+ Inicio PrepararCafe
+   Ponha agua na chaleira 
+   Ferva a agua 
+   Prepare o Fitro 
+   Ponha o pó do cafe 
+   Ponha agua fervida 
+   Passe o cafe 
+   Guarde tudo 
+ Fim    
+
+Bolo
+Fazer bolo
+  Inicio 
+    Pegue os Ingredientes 
+    Pegue um recipiente 
+    Coloque os engredientes no recipiente 
+    Pegue uma colher 
+    Mexa os ingredientes 
+    Pegue uma forma 
+    Coloque os igredientes mexidos na forma   
+    Leve ao forno  
+    Ligue o forno 
+    Espere Assar 
+    retire do forno 
+  Fim  
+
+  Algoritmos
+Mediante a estrutura apresentada anteriormente, fica mais fácil compreender a definição de um algoritmo, caracterizando-se por ser um conjunto de instruções objetivas.
+
+Embora a palavra algoritmo nos remeta a pensar em uma infinidade de coisas complexas, o mesmo se trata de um conjunto de instruções que tem como objetivo resolver um problema. Não quer dizer que não tenhamos algoritmos complexos, isso irá depender da complexidade do problema em questão.
+
+Todos os exemplos vistos anteriormente fazem parte do nosso dia a dia, são algoritmos que executamos sempre que precisamos. Deixando um pouco o cotidiano de lado, iremos agora entrar de cabeça no mundo computacional. Let's go!
