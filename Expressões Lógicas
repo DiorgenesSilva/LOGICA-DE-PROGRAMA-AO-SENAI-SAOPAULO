@@ -1,4 +1,4 @@
-Expressões Lógicas
+EXPRESSOES LOGICAS
 Vamos agora conhecer nosso último tipo de expressão, que são as expressões lógicas.
 Essa expressão é a que irá requerer uma atenção especial, pois iremos trabalhar com alguns operadores lógicos, e é de extrema importância que, ao final desta lição, saibamos o que significa cada um deles.
 
@@ -9,3 +9,116 @@ Essas expressões SEMPRE resultam em um dado do tipo lógico. Utilizam os operad
 Além disso, expressões lógicas podem conter expressões aritméticas dentro delas, veremos a seguir.
 É muito importante que consigamos entender cada um dos operadores lógicos.
 
+Expressões Lógicas
+Operadores relacionais lógicos:
+
+Símbolo	Operador
+>	Maior
+<	Menor
+>=	Maior igual
+<=	Menor Igual
+=	Igual
+<>	Diferente
+Exemplo com inteiros:
+23 > 42 -> O inteiro 23 é maior que o inteiro 42? -> Falso
+84 = 24 -> O inteiro 84 é igual ao inteiro 24? -> Falso
+12 < 12 -> O inteiro 12 é menor que o inteiro 12? -> Falso
+44 < 64 -> O inteiro 44 é menor que o inteiro 64? -> Verdadeiro
+
+Todos esses exemplos nós podemos colocar no VisuAlg e ver se o resultado é realmente o esperado. Veremos  a seguir.
+
+Agora, para fazer o teste dos operadores lógicos, montaremos um pequeno programa que faz a leitura de dois números fazendo as devidas comparações entre eles.
+
+Exemplo com variáveis:
+Algoritmo "EXPRESSOESLOGICAS"
+
+Var
+   a,b: inteiro
+
+Inicio
+ a <- 2
+ b <- 3
+
+ escreval (a + b = 6 )
+ escreval (a + b = 5 )
+ escreval (a > b)
+ escreval (a <> b)
+ escreval (a = b)
+ escreval (a >= b)
+ 
+Fimalgoritmo
+
+Expressões lógicas são expressões que recebem dois ou mais valores, além de poder ter outras expressões dentro dela, mas no final elas sempre retornam dados lógicos (VERDADEIRO ou FALSO). 
+Na tabela abaixo, mostramos de forma detalhada a execução do algoritmo, e, também, o motivo do resultado alcançado.
+
+Expressão 1   	Comparador  	Expressão 2  	   Resultado	              Motivo
+2 + 3	       	    =                  6               FALSO	            5 é diferente de 6
+2 + 3	 	        =                   5          VERDADEIRO    	        5 é igual a cinco
+2	                >                  3           VERDADEIRO	            2 é maior que 3
+2	                <>                 3           VERDADEIRO               2 é diferente que 3 
+2                   =                   3            FALSO                  2 é igual a 3 
+2                  >=                   3            FALSO                  2 émaior igual a 3
+
+
+OPERADORES DE SENTENÇA: E 
+O operador E refere-se à comparação binária de termos, ou seja, 1+1 E 3-1 é verdadeiro ou falso? Verdadeiro, ambos os resultados são 2. Remete à combinação verdadeiro + verdadeiro = verdadeiro.
+Veja exemplos 
+SENTENÇA	                                        RESULTADO
+Verdadeiro (E) Verdadeiro	                       Verdadeiro
+verdadeiro (E) Falso	                             Falso
+Falso (E) Verdadeiro	                             Falso
+Falso (E) Falso                                      Falso
+
+0 (=) 0	                                           Verdadeiro
+1 (=) 0	                                             Falso
+0 (=) 1	                                             Falso
+1 (=) 1	                                           Verdadeiro
+
+Outros exemplos:
+
+OPERAÇÃO 	                                        RESULTADO
+(5=5) e (6<8)	                                   Verdadeiro
+(5>5+9) e (1<7)                                      Falso
+(2>1) e (2>=2) e (1<>11)	                       Verdadeiro
+(2=1) e (5<>5)                                       Falso
+
+
+OPERADORES DE SENTENÇA: OU
+
+O operador OU refere-se à comparação binária de termos. Remete à combinação verdadeiro + falso = verdadeiro. Se qualquer um dos termos estiver correto a expressão é verdadeira 1+1=2 OU 3+1=6?
+SENTENÇA                                    	     RESULTADO 
+Verdadeiro (OU) Verdadeiro	                         Verdadeiro
+verdadeiro (OU) Falso	                             Verdadeiro
+Falso (OU) Verdadeiro	                             Verdadeiro
+Falso (OU) Falso	                                   Falso
+
+
+SENTENÇA                                        	RESULTADO
+0 (=) 0                                               Falso
+0 (=) 1	                                           Verdadeiro
+1 (=) 0	                                           Verdadeiro
+1 (=) 1                                            Verdadeiro
+
+
+OPERAÇÃO                     	                   RESULTADO
+(5=4) ou (6<8)                                     Verdadeiro
+(15>5+9) ou (1<0)	                               Verdadeiro
+(2>1) ou (2>2) ou (1<>11)	                       Verdadeiro
+(2=1) ou (5<>5)	                                     Falso
+
+
+expressao do teste 
+Algoritmo "EXPRESSOESLOGICAS"
+
+Var
+    a,b: inteiro
+
+Inicio
+   a <- 4
+   b <- 2
+   // 4 é maior que 2 ? e 2 é diferente que 4 ?
+   escreva (( a > b ) e ( b <> a ))
+   // 4 é igual a 2 ? e 2 é diferente de 4  ?
+   escreva (( a = b ) e ( b <> a ))
+
+Fimalgoritmo
