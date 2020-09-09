@@ -1,0 +1,33 @@
+Tipos de Dados
+Anteriormente, vimos que os algoritmos fazem parte do nosso dia a dia, também conhecemos como e o que é um algoritmo e quais as representações que ele pode ter, além da ferramenta que utilizaremos em nosso curso.
+
+Agora começaremos a mergulhar na parte computacional, entender como os algoritmos funcionam aplicados em um sistema de computador.
+
+Tipos de Dados
+Quando criamos um programa computacional, temos que levar em conta quais os tipos de dados que poderão ser inseridos no sistema. É aí que entram os Tipos de Dados. São eles que dirão o que poderá ser digitado ou quais valores nosso algoritmo aceitará.
+
+Então, vamos ver quais são os tipos de dados e quais informações eles aceitam.
+
+TIPO DE DADO INTEIRO 
+Aceitam somente números inteiros positivos e negativos.
+Não aceitam números decimais.
+Números Inteiros
+-234,-30-,-19, 2,39,345,7
+
+TIPO DE DADO REAL 
+Podem ser valores positivos e negativos.
+Podem ser números decimais e inteiros.
+Números Reais
+No VisuAlg, o separador decimal é o ponto, não a vírgula.
+-17.789,34.76,1.6,7.0
+
+
+TIPO DE DADO LITERAL 
+Podem ser letras, números ou caracteres especiais, ou seja, podem ser qualquer tipo de valor.
+Números Reais
+Os valores deste tipo devem estar dentro de aspas duplas ("").
+"Olá Mundo !","2020","Curso de Logica de Programação",
+
+TIPO DE DADO LÓGICO 
+São respostas para uma pergunta, a qual deverá ter apenas duas possíveis respostas: sim ou não.
+Porém, sempre resultam como VERDADEIRO ou FALSO.
