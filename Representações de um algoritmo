@@ -1,0 +1,66 @@
+Representações de um algoritmo
+Agora que tivemos uma introdução do que se trata os algoritmos, iremos entender como eles podem ser representados.
+
+Temos várias formas de representar algoritmos, desde a mais simples, representada por formas, até as mais detalhistas, contendo regras de implementação.
+
+Representações de um algoritmo
+...
+Abaixo, conheceremos os dois tipos mais utilizados: representados por formas que fazem alusão a tomadas de decisões (fluxograma) e por meio do pseudocódigo, sendo este mais utilizado para o ensino de lógica de programação; por meio de linguagem de máquina criamos nossos algoritmos para os computadores processarem e resolverem os problemas.
+
+FLUXOGRAMA
+Representado por formas, tornam o entendimento de determinado algoritmo mais simples, pois uma figura é mais clara que várias palavras.
+É definido por uma série de símbolos, em conjunto com desenhos geométricos que representam os passos do algoritmo,
+Tais como: início, entrada e saída de dados, tomada de decisões, estruturas de repetição e final do algoritmo.
+CIRCULO ALONGAO:> O círculo alongado é utilizado para dar inicio ou terminar um fluxograma.
+RETANGULO:> O retângulo é utilizado para fazer uma ação ou uma instrução no fluxograma.
+LOSANGO:>O losango é utilizado para uma decisão em um fluxograma.
+
+
+PSEUDOCÓDIGO 
+Diferente do fluxograma, o pseudocódigo, também conhecido como portugol ou português estruturado, utiliza PDL - Program Design Language (Linguagem de Projeto de Programação).
+Ou seja, é uma espécie de narração do que o programa deve fazer. Para isso, utilizaremos o pseudocódigo em um programa chamado VisuAlg, que abordaremos em nossa próxima lição.
+O pseudocódigo é a base que todos devem ter para aprender uma linguagem de programação, pois é ele que intermedia a linguagem falada (humana) para a linguagem de programação (computacional).
+DECLARA nota1,nota2,media:NUMERO
+Café
+Preparar café
+ Inicio PrepararCafe
+   Ponha agua na chaleira 
+   Ferva a agua 
+   Prepare o Fitro 
+   Ponha o pó do cafe 
+   Ponha agua fervida 
+   Passe o cafe 
+   Guarde tudo 
+ Fim    
+
+Bolo
+Fazer bolo
+  Inicio 
+    Pegue os Ingredientes 
+    Pegue um recipiente 
+    Coloque os engredientes no recipiente 
+    Pegue uma colher 
+    Mexa os ingredientes 
+    Pegue uma forma 
+    Coloque os igredientes mexidos na forma   
+    Leve ao forno  
+    Ligue o forno 
+    Espere Assar 
+    retire do forno 
+  Fim  
+
+ Exercitando
+Pegue um papel e uma caneta e faça o seguinte algoritmo: 
+Chupar bala - Utilizando fluxograma demonstre as etapas necessárias para chupar a bala, lembrando que você ainda não a possui. Será que você consegue? 
+
+Algoritimo ChuparBala 
+   Inicio 
+     Ir ate o pote de bala 
+     Abrir o pote de Bala 
+     Pega uma bala dentro do pote   
+     Tapar o Pote  
+     Desenbrulhar a bala 
+     Colocar a bala na boca
+     Jogar a embalagem no lixo
+   Fim 
+ 
