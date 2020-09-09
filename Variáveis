@@ -1,0 +1,105 @@
+Variáveis
+Variável é onde iremos guardar dados essenciais para o funcionamento do nosso algoritmo/programa.
+
+Uma variável guarda um valor informado em uma posição de memória, seu conteúdo pode sempre ser alterado, como o próprio nome já diz "variável".
+Uma variável só pode ter UM valor dentro dela.
+
+Variáveis
+Imagine as variáveis como se fossem gavetas.
+Em uma gaveta podemos colocar diversas coisas, mas e se rotularmos uma gaveta, ou seja, colocarmos uma legenda, ou um papel informando o que deve ter na gaveta ?
+Uma gaveta informando que irá ter meias, dentro dela deverá ter apenas meias. Possivelmente, alguém poderá colocar algo diferente (camiseta), onde deveria ter apenas meias.
+Nos algoritmos computacionais isso não acontece, uma vez que determinado que uma variável é do tipo inteiro, ela só poderá ter números inteiros.
+Variáveis têm três passos principais para serem criadas, são eles:
+
+Ter um nome
+TODA variável criada em um programa deve ter um nome para que possa ser identificada.
+
+Ter um tipo de dado vinculado
+Vimos, na lição anterior, os tipos de dados, e é aqui que iremos utilizá-los. Ou seja, é aqui que diremos qual tipo de dado pode conter em nossa variável.
+
+Ter um valor atribuído
+Não tem por que eu criar uma variável sem ter a intenção de colocar algum dado dentro dela.
+
+Agora vamos ver isso na prática:
+O que são: espaços da memória do computador destinados ao armazenamento de dados.
+Como usar: no programa, deve-se dar um nome a ela e informar qual o seu tipo de dado. E, no decorrer do algoritmo, atribuir o valor a ela necessário.
+ecemplo:
+  var
+    nomeDaVariavel: TipoDeDado
+
+
+Variáveis - Regras
+Regras para o nome da variável:
+
+nomes de variáveis não podem ser iguais a palavras reservadas;
+nomes de variáveis devem possuir como primeiro caractere uma letra ou sublinhado '_' (os outros caracteres podem ser letras, números e sublinhado);
+nomes de variáveis devem ter no máximo 127 caracteres;
+nomes de variáveis não podem conter espaços em branco.
+
+Saiba mais: Palavras Reservadas
+Essas são as regras para nossas variáveis funcionarem no programa.
+Abaixo estão listados exemplos de variáveis:
+
+nome1
+meuNome (Sempre que tivermos palavras separadas, removemos o espaço e deixamos a primeira letra de cada palavra em maiúsculo).
+
+Para definir o tipo de dado de uma variável, primeiro declaramos a variável dentro do bloco de variáveis do nosso programa, em seguida colocamos dois pontos (:) e o tipo de dado (inteiro, literal, lógico ou real).
+
+Exemplo:
+ var
+  nomeDaVariavel: TipoDeDado
+
+ var
+  idade: inteiro
+
+É assim que devemos declarar nossas variáveis no VisuAlg para que funcione.
+
+FORMA CORRETA               FORMA ERRADA         
+Minha_Variavel              Minha Variavel 
+MinhaVariavel               2MinhaVariavel
+MnhaVariavel2                Inicio
+Minha2Variavel               @MinhaVariavel
+
+Variáveis - Atribuindo Valor
+Para atribuir um valor a uma variável, precisamos usar o operador de atribuição que é <-
+Exemplo:
+  var
+    nomeDaVariavel <- "SENAI"
+
+Nesse exemplo eu estou dizendo que a variável "nomeDaVariavel" irá receber o valor "SENAI" como literal.
+A variável deve ter sido declarada com o tipo literal para que aceite tal tipo.
+Variáveis - Atribuindo Valor
+Exemplo no VisuAlg:
+
+  algoritmo "nome"==>> LITERAL COM TITULO DO  PROGRAMA  
+  ____________________________________________________________
+ var
+  idade: Inteiro
+  dataNascimento: Literal ==>>VARIAVESI SERAO UTLIZADAS NO PROGRAMA
+  maiorIdade:Logico        DEVEM SER DECLARADAS NESSE BLOCO 
+  salario: Real 
+
+  _____________________________________________-_________________
+inicio
+ 
+idade <- 24
+dataNascimento <- "16/03/1986" ==>> ESPAÇO PARA OS COMANDOS DO PROGRAMA  
+maiorIdade <- VERDADEIRO       É  A PARTIR DO INICIO  QUE ORA SER DIGITADA 
+salario <- 600.50                TODA NOSSA LOGICA
+
+____________________________________________________________________
+
+ 
+Variáveis - Entrada de dados
+Para atribuir um valor a uma variável, precisamos usar o operador de atribuição que é <-
+
+leia (nome) ==>>> Variável onde o dado será gravado.
+Exemplo:
+
+escreva(Informe seu nome: ")
+leia(nome)
+==>> Cursor piscando, esperando pela inserção de dados do usuário.
+
+Ele irá jogar o valor que o usuário digitar para dentro da variável "nome".
+
+
