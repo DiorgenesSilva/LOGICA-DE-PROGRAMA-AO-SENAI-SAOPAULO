@@ -1,0 +1,2 @@
+# LOGICA DE PROGRAMAÇÃO SENAI SÃO PAULO
+ Boas Vindas! Seja muito bem-vindo(a), a partir de agora você conhecerá um pouco do mundo da lógica de programação. Conseguirá, por meio deste curso, desenvolver sua lógica para poder:  criar sites; desenvolver games; programar robôs; Você será desafiado a desenvolver uma calculadora até o fim do nosso conteúdo. Então, atente-se ao que vem por aí!  Utilizando linguagens de programação temos um mundo de possibilidades, e você terá a oportunidade de entender como tudo isso funciona.
