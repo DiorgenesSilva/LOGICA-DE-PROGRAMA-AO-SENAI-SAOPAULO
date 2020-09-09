@@ -13,3 +13,22 @@ https://visualg3.com.br
 O visuAlg é um interpretador simples de pseudocódigo utilizado por professores para o ensino de lógica de programação. 
 Seu objetivo não é criar softwares, mas auxiliar o aluno a entender a execução de seu algoritmo.
 
+Entendendo um pouco melhor
+Para a criação de um algoritmo, é necessária a utilização de palavras-chave. Abaixo, seguem as três principais para o funcionamento:
+
+algoritmo: comando que irá definir o nome do programa; deve ser feito em aspas duplas;
+
+var: comando que especifica a área em que as variáveis serão declaradas. É aqui que colocaremos as variáveis que iremos utilizar;
+
+inicio: comando que informa o início do programa; é nesse bloco que ficarão os comandos e a lógica que utilizaremos para criar nosso algoritmo.
+
+fimalgoritmo: comando que informa que é o final do algoritmo.
+
+
+Dentro do nosso algoritmo utilizaremos palavras-chave que irão ler o que for digitado e escrever na tela para informar algo ao usuário.
+
+Escreva: esse comando irá escrever na tela alguma informação ao usuário. Ex.: Escreva("Digite seu nome").
+
+Leia: esse comando irá ler o que foi digitado pelo usuário. Ex.: Leia(nome). Esse nome entre parênteses é uma das variáveis que deve estar declarada no bloco var que vimos anteriormente.
+
+Escreval: esse comando é idêntico ao escreva, a não ser pelo fato de que ele pula uma linha. Ex.: Escreval("Digite seu nome").
