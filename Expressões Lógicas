@@ -1,17 +1,11 @@
 Expressões Lógicas
 Vamos agora conhecer nosso último tipo de expressão, que são as expressões lógicas.
-
 Essa expressão é a que irá requerer uma atenção especial, pois iremos trabalhar com alguns operadores lógicos, e é de extrema importância que, ao final desta lição, saibamos o que significa cada um deles.
 
 Ansioso para conhecer?
-
 Então vamos lá!
-
 As expressões lógicas servem para compararmos valores e dizer se o resultado é VERDADEIRO ou FALSO.
-
 Essas expressões SEMPRE resultam em um dado do tipo lógico. Utilizam os operadores relacionais lógicos (maior, menor, igual, diferente etc.).
-
 Além disso, expressões lógicas podem conter expressões aritméticas dentro delas, veremos a seguir.
-
 É muito importante que consigamos entender cada um dos operadores lógicos.
 
