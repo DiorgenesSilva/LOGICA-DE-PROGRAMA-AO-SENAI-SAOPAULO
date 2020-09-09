@@ -1,0 +1,32 @@
+Expressões Literais
+Expressões literais são expressões de concatenação, ou seja, elas juntam valores por meio do operador de concatenação, que, no VisuAlg, é a vírgula (,). Exemplo:
+Meu nome é Anderson
+Meu sobrenome é Aguiar
+Meu nome completo é Anderson Aguiar
+O nome completo é resultado de uma expressão literal.
+
+
+Expressões Literais
+var
+nome, sobrenome, completo: Literal
+inicio
+nome <- "Anderson"
+sobrenome <- "Aguiar"
+completo <- nome+" "+sobrenome
+
+Expressões literais recebem mais de um valor e resultam SEMPRE em um valor do tipo literal.
+
+algoritimo "concatenação"
+ var 
+   nome:Literal
+   idade:Inteiro 
+
+Inicio 
+   escreva ("Digite seu nome")
+   leia (nome) 
+   escreva ("Qual a sua idade")
+   leia(idade) 
+   escreva(nome"VOCE TEM",idade "QTS ANOS") 
+Fimalgoritimo 
+
+    
