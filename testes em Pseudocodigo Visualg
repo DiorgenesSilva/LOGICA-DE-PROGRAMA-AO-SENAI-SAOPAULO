@@ -115,7 +115,7 @@ Inicio
 Fimalgoritmo
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------
-Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+Algoritmo " testandooperadoresrelacionais e logicos "                           
 
 // Seção de Declarações das variáveis
  var
@@ -133,8 +133,7 @@ Fimalgoritmo
 -----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------
 
-Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
-
+Algoritmo " testandooperadoresrelacionais e logicos "                            
 // Seção de Declarações das variáveis
  var
   a,b,c:inteiro
@@ -152,9 +151,9 @@ Inicio
 Fimalgoritmo
 
 
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------- 
 ------------------------------------------------------------------------
-Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+Algoritmo " testandooperadoresrelacionais e logicos "                           
 
 // Seção de Declarações das variáveis
  var
@@ -173,7 +172,7 @@ Inicio
 Fimalgoritmo
 ----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
-Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+Algoritmo " testandooperadoresrelacionais e logicos "                        
 
 // Seção de Declarações das variáveis
  var
@@ -201,4 +200,172 @@ Fimalgoritmo
 
 ---------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
+Algoritmo " Descobrindo idade de uma pessoa "                           
 
+// Seção de Declarações das variáveis
+    var
+       ano_atual,ano_nacimento:inteiro
+       idade:inteiro
+
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+         escreva ("Em que ano estou ?")
+         leia ( ano_atual )
+         escreva ("Em que anos eu nasci ?")
+         leia ( ano_nacimento )
+         idade <- ano_atual - ano_nacimento
+         escreva ("Voce tem anos de idade exatamente:",idade)
+
+Fimalgoritmo
+
+-------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+Algoritmo "Conversor de Moedas"                           
+
+// Seção de Declarações das variáveis
+    var
+       dolar : real
+       reais : real
+       conv :  real
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva ("quanto de dinheiro tem a creusa ?")
+   leia ( reais )
+   escreva ("Quanto de dinheiro esta o dolar hoje ?")
+   leia ( dolar )
+   conv <- reais / dolar
+   escreva (" Posso ter US$",conv)
+   
+
+Fimalgoritmo
+
+--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Algoritmo " Conerter Graus celsius para fahrenheit"                           
+
+ var
+  ce :real
+  fa : real
+  
+  
+Inicio
+
+escreva ("Qual a temperatura em fahrenheit")
+leia(fa)
+ce <- (fa -32)/1.8
+escreva ("No brasil estaia:",ce:4:1)
+ 
+Fimalgoritmo
+
+------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------- 
+
+Algoritmo "Calculando Porcentagem "                            
+
+ var
+  preco: real
+  imposto : real
+Inicio
+      escreva("Qual o valor do produtoe")
+      leia(preco)
+      imposto <- (preco* 60) /100
+      escreva(" O imposto sera de :",imposto:4:1)
+ 
+Fimalgoritmo
+
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+  Algoritmo "estutura condicional"
+
+var
+  atual: inteiro
+  nacimento: inteiro
+ idade: inteiro
+Inicio
+         escreva ( "em que ano estamos" )
+         leia ( atual)
+         escreva ("Em que eu nasci?\")
+         leia( nacimento)
+         idade <- (  atual -  nacimento)
+         escreval ("Em", atual,"Voce tera",idade,"anos")
+         se idade >= 21 entao
+         escreva ("E vc ja é maior de idade")
+         fimse
+
+Fimalgoritmo
+
+--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Algoritmo "Condiional composta  "                            
+
+var
+  atual: inteiro
+  nacimento: inteiro
+  idade: inteiro
+Inicio
+         escreva ( "em que ano estamos" )
+         leia ( atual)
+         escreva ("Em que eu nasci?\")
+         leia( nacimento)
+         idade <- (  atual -  nacimento)
+                   escreval ("Em", atual,"Voce tera",idade,"anos")
+                   se idade >= 21 entao
+                   escreval ("E vc ja tera atingido a maior idade  idade")
+
+                  senao
+                  escreva("Voce ainda é menor de 21 anos")
+         fimse
+         
+         
+
+Fimalgoritmo
+
+---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+Algoritmo "Condiional composta  "                           Algoritmo " testandooperadoresrelacionais e logicos "
+
+var
+   n: inteiro
+Inicio
+   escreva("DIgite um numero")
+   leia(n)
+   se ( n % 2= 0 )entao
+   escreva ( "O numero",n,"é PAR")
+   senao
+   escreva("O numero",n,"é IMPAR")
+   fimse
+   
+
+ Fimalgoritmo
+
+ ----------------------------------------------------------------------------
+ ---------------------------------------------------------------------------- 
+ Algoritmo "Calcule IMC Massa Corporal e altua em Metro s"
+
+var
+   massa:real
+   altura:real
+   imc:real
+   
+Inicio
+      escreva ("Massa Kg:")
+      leia ( massa )
+      escreva ( "Altura Mts:")
+      leia ( altura )
+      imc <- massa /( altura ^2)
+      escreval("IMC=",imc:5:1)
+      se ( imc >= 18.5) e ( imc < 25 )entao
+      escreval ("Parabens !! Voce esta na faixa de peso ideal ")
+      senao
+      escreva ("Se cuide !! Voce esta fora do padrao de Peso ideal")
+      fimse
+      
+
+-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
