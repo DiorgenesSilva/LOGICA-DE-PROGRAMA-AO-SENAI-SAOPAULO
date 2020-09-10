@@ -1,0 +1,204 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~TESTES PARA PRATICA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+---------------------------------------------------------------------------  
+
+Algoritmo " testandooperadoresrelacionais e logicos "
+
+
+ Var
+// Seção de Declarações das variáveis
+  a,b,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+    escreva ( a > b )
+ 
+Fimalgoritmo
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+Algoritmo " testandooperadoresrelacionais e logicos "
+
+
+ Var
+// Seção de Declarações das variáveis
+  a,b,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+ escreva( a <> b )
+ 
+Fimalgoritmo
+------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------Algoritmo " testandooperadoresrelacionais e logicos "
+
+
+ Var
+// Seção de Declarações das variáveis
+  a,b,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+     escreva( a = b )
+
+
+
+Fimalgoritmo
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+Algoritmo " testandooperadoresrelacionais e logicos "
+
+
+ Var
+// Seção de Declarações das variáveis
+  a,b,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+     escreva( a > 2  )
+
+ 
+Fimalgoritmo
+----------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+MEDINDO LADOS DE UM TRIANGULO 
+EQUILATERO,ESCALENO E Algoritmo " testandooperadoresrelacionais e logicos "
+
+
+ Var
+// Seção de Declarações das variáveis
+  a,b,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+     escreva( a >= b )
+
+
+
+Fimalgoritmo
+
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Algoritmo " testandooperadoresrelacionais e logicos "
+
+
+ Var
+// Seção de Declarações das variáveis
+  a,b,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+     escreva( c = a+b )
+
+
+
+Fimalgoritmo
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+
+// Seção de Declarações das variáveis
+ var
+  a,b,c:inteiro
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+ escreva( c >= b^a  )
+ 
+Fimalgoritmo
+-----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+
+// Seção de Declarações das variáveis
+ var
+  a,b,c:inteiro
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+ escreva( 1=c%2 )
+
+
+
+Fimalgoritmo
+
+
+-------------------------------------------------------------------------------
+------------------------------------------------------------------------
+Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+
+// Seção de Declarações das variáveis
+ var
+  a,b,c:inteiro
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ a <- 2
+ b <- 3
+ c <- 5
+ escreva (( a=b ) ou ( C > a))
+
+
+
+Fimalgoritmo
+----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Algoritmo " testandooperadoresrelacionais e logicos "                           Algoritmo " testandooperadoresrelacionais e logicos "
+
+// Seção de Declarações das variáveis
+ var
+L1,L2,L3:real
+Eq,Es:logico
+tri:logico
+
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  escreva ("Digite o primeiro lado ")
+  leia( L1 )
+  escreva ("Digite o segundo Lado ")
+  leia ( L2 )
+  escreva ("Digite o Terceiro Lado")
+  leia ( L3 )
+  tri <- (L1 < L2 + L3) e ( L2 < L1 + L3 ) e (L3 < L1 + L2 )
+  Eq <- ( L1 = L2 ) e ( L2 = L3 )
+  Es <- ( L1 <> L2 ) e ( L1 <> L3 ) e ( L2 <> L3)
+   escreval ("Pode formar um triangulo?",tri)
+   escreval(" O Triangulo é EQUILATERO ?",Eq)
+   escreva(" O Triangulo é ESCALENO ?",Es)
+Fimalgoritmo
+
+---------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+

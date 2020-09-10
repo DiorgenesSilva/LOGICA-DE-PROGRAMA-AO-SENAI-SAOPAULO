@@ -1,0 +1,197 @@
+Estruturas de Repetição
+Estamos chegando ao final do nosso curso, esta será nossa penúltima lição. Será que você vai conseguir o troféu?!
+Acredito que, se você chegou até aqui, não está para brincadeira!
+Agora, iremos aprender sobre as estruturas de repetição, elas irão nos economizar MUITO código na hora de escrevermos nossos algoritmos, então vamos lá!
+
+Estruturas de Repetição
+No VisuAlg temos disponíveis três estruturas de repetição para utilizarmos em nossos algoritmos. São elas:
+
+Para...faça
+Enquanto...faça
+Repita...até
+
+Então o que são exatamente estruturas de repetição?
+
+São conjuntos de comandos que repetem instruções em uma quantidade predeterminada ou não. Ou seja, são blocos de códigos que se repetirão sempre que se enquadarem nos blocos condicionais a eles atribuídos.
+Quando utilizaremos?
+Sempre que precisarmos fazer coisas repetitivas.
+Para exemplificar, usaremos uma variável chamada cont para ser o nosso contador de vezes que o algoritmo repetirá um determinado bloco de código.
+
+Vamos utilizar o nosso exemplo de verificar se determinada pessoa é maior ou menor de idade.
+Algoritmo "maioridade" 
+ Var
+   idade: inteiro
+
+Inicio
+      Escreva ("Informe Idade")
+      Leia (idade)
+      se (idade)>= 18 entao
+      Escreva ("Voce é de maior ")
+      senao
+      Escreva ("Voce é menor de idade")
+      fimse
+Fimalgoritmo
+
+Mas, se fossem três pessoas?
+Algoritmo " maior idade "
+
+Var
+// Seção de Declarações das variáveis 
+  idade,idade2,idade3: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+     Escreva ("Informe a sua idade ")
+     Leia (idade)
+     se idade >= 18 entao
+     escreva (" Voce é de maior ") senao
+     escreva (" Voce é de Menor ")
+     fimse
+    escreva ("Informe a sua idade")
+    leia (idade2)
+    se idade2 >= 18 entao
+    escreva ("Voce é maior de idade") senao
+    escreva ("Voce é menor de idade")
+    fimse
+    escreva ("Informe a sua idade")
+    leia(idade3)
+    se idade3 >= 18 entao
+    escreva("Voce é maior")senao
+    escreva ("Voce é menor ")
+    fimse
+    
+Fimalgoritmo
+
+Estruturas de Repetição
+Note a quantidade de código que tivemos que digitar para verificar a idade de três pessoas. Poderia ser mais simples, não é? Com certeza! 
+É aí que entram as estruturas de repetição.
+
+Estruturas de Repetição - Para...faça
+A estrutura de repetição para..faça é utilizada da seguinte forma:
+
+para variavel* de inicio** ate final*** faca
+// Instruções para repetir
+fimpara
+
+* Nome da variável que irá controlar a repetição
+** Valor da variável onde iniciará a repetição
+*** Valor da variável onde terminará a repetição
+
+Exemplo:
+
+para i de 1 ate 3 faca
+// Instruções para repetir
+fimpara
+
+A variável que irá controlar a repetição deve estar definida no bloco de variáveis.
+
+Algoritmo "semnome"
+
+
+Var
+// Seção de Declarações das variáveis 
+cont,idade:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    para cont de 1 ate 10 faça
+escreva (" Informe a sua idade ")
+leia (idade)
+se idade < 15 entao
+se idade > 20 entao
+escreva ("Voce é uma criança ")
+fimse
+fimse
+fimpara 
+
+Fimalgoritmo
+
+Estruturas de Repetição - Para...faça
+Lembra do exemplo que utilizamos lá no início para verificar a idade de três pessoas e dizer se é maior ou menor de idade? Vejamos como fica utilizando a estrutura de repetição para..faça:
+Algoritmo "menor de idade"
+
+
+Var
+// Seção de Declarações das variáveis
+     idade,i: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+      para i de 1 ate 3 faça
+      escreva ("Informe a sua idade")
+      leia(idade)
+      se idade >=  18 entao
+      escreva ("Voce é de maior ") senao
+      escreva("Vocé é menor de idade")
+      fimse
+      fimpara
+   
+Fimalgoritmo
+
+Bem melhor, não acha? 
+Então, a essência para se utilizar as estruturas de repetição é identificar onde há blocos que se repetem mais de uma vez no nosso algoritmo.
+
+
+Estruturas de Repetição - Enquanto...faça
+Na estrutura "Para Faça", ela repete durante a iteração de um valor, ou seja, repete-se até chegar no número informado. Há outras estruturas que repetem a partir de uma condição (expressão lógica), que é o caso do enquanto..faça
+
+Estrutura "Enquanto Faça":
+enquanto <expressão lógica> faca
+// Comandos para repetir
+
+fimenquanto
+
+Os comandos são executados enquanto a expressão lógica for verdadeira.
+Algoritmo "triplo"
+
+
+Var
+// Seção de Declarações das variáveis
+     numero: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+      numero <- -1
+      enquanto (numero <>  0) faça
+      escreva("Digie um numero")
+      leia(numero)
+      escreva("Triplo",numero*3 )
+      fimenquanto
+
+
+Fimalgoritmo
+
+
+
+Estruturas de Repetição - Repita...até
+A estrutura "Repita...até" segue o mesmo princípio da "Enquanto Faça", porém a verificação condicional é realizada no final da repetição, deste modo pelo menos uma vez a estrutura é executada.
+
+repita
+// Comandos que serão repetidos 
+até <expressão lógica>
+
+Um algoritmo que calcula a soma de um número digitado e mostre para o usuário até ele sair do programa.
+Algoritmo "reoita"
+
+
+Var
+// Seção de Declarações das variáveis
+   op:literal
+   num,soma:real
+   
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   soma <- 0
+   repita
+   escreva ("Informe um numero para calculo: ?")
+   leia(num)
+   soma <- soma + num
+   escreval("Soma=",soma)
+   escreval ("Desejacontinuar (s/n)")
+   leia(op)
+   ate (op="n")OU(op="N")
+   
+ 
+Fimalgoritmo
