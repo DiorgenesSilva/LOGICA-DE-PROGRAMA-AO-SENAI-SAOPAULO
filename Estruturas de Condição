@@ -1,0 +1,82 @@
+Estruturas de Condição
+Agora iremos conhecer as estruturas de condição, que servem para nos auxiliar na tomada de alguma decisão. São definidas por expressões lógicas, em que o programa irá executar a estrutura de acordo com as respostas (VERDADEIRO ou FALSO).
+
+Considerando um cenário real e cotidiano, elas são as várias decisões que tomamos no nosso dia a dia.
+Vamos imaginar que estamos saindo de casa, e, de repente, começa a chover. O que devemos fazer?
+
+Se está chovendo = pegar um guarda-chuva.
+Se não está chovendo = não preciso de um guarda-chuva.
+
+Isto foi uma condição que determinará o que eu deveria levar comigo.
+
+Saindo um pouco do cenário real e indo para o ambiente computacional, temos a seguinte tarefa: Cadastrar pessoas maiores de idade no sistema.
+Para isso devemos fazer uma estrutura de condição para verificar a idade digitada. Veja no fluxograma ao lado um exemplo de condição.
+No cadastro não podem ser cadastradas pessoas menores de idade.
+
+
+Demonstrada a importância de fazer comparações em seu algoritmo, iremos evoluir para aprender como faremos em linguagem de máquina, pois o que sabemos até agora é em relação aos operadores, estes, por sua vez, nos auxiliam a comparar. Por exemplo: podemos comparar se o 15 é maior do que 16; o nosso algoritmo irá retornar falso. 
+Como escrever uma estrutura condicional em algoritmo?
+se < expressão lógica > entao 
+// ações para executar caso a expressão seja verdadeira 
+
+algoritmo "condicional"  
+  var 
+  idade:inteiro 
+Inicio 
+  escreva ('Informe a sua idade:")
+  leia (idade)
+  se idade >= 18 entao 
+  escreva ("Voce é maior de idade") 
+ fimse
+fimalgoritimo
+
+
+No exemplo anterior, vimos como entrar em uma condição caso ela dê VERDADEIRA, e se for necessário tratar se a expressão for falsa? Para isso utilizamos a cláusula SENAO.
+
+se <expressão lógica> entao
+//ações para executar caso a expressão seja verdadeira
+senao
+//ações para executar caso a expressão seja verdadeira
+fimse
+
+Algoritmo "idade"
+
+
+Var
+ idade: inteiro
+
+Inicio
+  escreval("Informe idade:")
+  leia (idade)
+  se idade >= 18 entao
+  escreval ("voce é de maior ")
+  senao
+  escreva ("Voce nao é de maior ")
+  fimse
+
+Fimalgoritmo
+
+
+Nas estruturas condicionais, temos a possibilidade de fazer condições sequenciais/consecutivas sempre que necessário. 
+Podemos utilizar qualquer expressão lógica, dessa forma, as estruturas de condições servem para controle de ações, valores e variáveis do sistema.
+Algoritmo "preço"
+
+Var
+ preco : real
+
+
+Inicio
+ Escreva ("Informe o preço")
+ Leia (preco)
+ Se preco > 10.0 então
+ Escreva ("Barato ")
+ fimse
+ Se (preco > 40.0)e(preco <= 100)
+ Escreva("Preço Bom")
+ Se ( preco > 100.0 ) entao
+ Escreva ("Preço caro ")
+ fimse
+Fimalgoritmo
+
+
+ 
