@@ -62,9 +62,9 @@ Podemos utilizar qualquer expressão lógica, dessa forma, as estruturas de cond
 Algoritmo "preço"
 
 Var
- preco : real
+ preco : real 
 
-
+   
 Inicio
  Escreva ("Informe o preço")
  Leia (preco)
