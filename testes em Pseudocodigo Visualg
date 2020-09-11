@@ -550,8 +550,30 @@ Fimalgoritmo
 
 ------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
+Algoritmo " Contar ate onde o usuario quiser  ESTRUTURA DE REPETIÇÃO enquanto-faça   "
+
+Var
+
+   CONTADOR: inteiro
+   VALOR: inteiro
+   
+
+Inicio
+     CONTADOR <- 0
+     escreval("Quer contar ate quanto ?")
+     leia(VALOR)
+     enquanto ( CONTADOR <= VALOR ) faça
+     escreval(CONTADOR)
+     CONTADOR <- CONTADOR  + 1
+     
+     fimenquanto
+       escreval("TERMINEI  DE CONTAR ")
 
 
 
+Fimalgoritmo
+
+------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 
 
