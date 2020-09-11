@@ -699,4 +699,38 @@ Fimalgoritmo
 ____________________________________________________________________________________________________
 ____________________________________________________________________________________________________ 
 
+Algoritmo "Soma de 2 numeros ,REPETIÇAO ate o usuario dizer "N" "
 
+Var
+   NUM,CONT,SOMA: inteiro
+   RESP: caractere
+
+Inicio
+     SOMA <- 0
+      repita
+          escreva("Digite    o valor ====> :")
+         leia (NUM)
+    SOMA <- SOMA + NUM
+        escreval("Voce quer continuar (S/N) ")
+        leia (RESP)
+      ate ( RESP = "N" )
+     escreval("A soma de todos os valores é",SOMA )
+
+Fimalgoritmo
+
+________________________________________________________________________________________________  
+________________________________________________________________________________________________
+
+Algoritmo "contar de 00 a 10 , utilizando repita  "
+
+Var
+  CONT : inteiro
+
+Inicio
+     CONT<-  -1
+     repita
+      escreval (CONT)
+      CONT <- CONT + 1
+      ate ( CONT > 10 )
+
+Fimalgoritmo
