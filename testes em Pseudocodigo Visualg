@@ -576,4 +576,56 @@ Fimalgoritmo
 ------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 
+Algoritmo " Contar ate onde o usuario quiser,UTILIZANDO SALTO   ESTRUTURA DE REPETIÇÃO enquanto-faça   "
+
+Var
+
+   CONTADOR: inteiro
+   VALOR: inteiro
+   SALTO: inteiro
+
+
+Inicio
+     CONTADOR <- 0
+     escreval ("qUAL SERA O VALOR DO SALTO ")
+     leia(SALTO)
+     escreval("Quer contar ate quanto ?")
+     leia(VALOR)
+     enquanto ( CONTADOR <= VALOR ) faça
+     escreval(CONTADOR)
+     CONTADOR <- CONTADOR  + SALTO
+
+     fimenquanto
+       escreval("TERMINEI  DE CONTAR ")
+
+
+
+Fimalgoritmo
+
+----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+Algoritmo " SOMADOR NUMERICO"
+Var
+
+   CONTADOR,N,SOMA: inteiro
+
+
+Inicio
+     CONTADOR <- 1
+     SOMA <-- 0
+     enquanto ( CONTADOR <= 10 ) faça
+     escreva("Digite o", CONTADOR ,"O VALOR:")
+     LEIA( N )
+     SOMA <- SOMA + N
+     CONTADOR <- CONTADOR + 1
+    
+    fimenquanto
+    escreval("A soma de todos os valores é",SOMA)
+
+
+Fimalgoritmo
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
 
