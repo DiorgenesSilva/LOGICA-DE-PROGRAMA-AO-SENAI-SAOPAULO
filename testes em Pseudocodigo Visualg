@@ -734,3 +734,27 @@ Inicio
       ate ( CONT > 10 )
 
 Fimalgoritmo
+
+-__________________________________________________________________________________
+------------------------------------------------------------------------------
+
+Algoritmo "contar de 00 a 10 , utilizando repita  "
+
+Var
+  CONT,NUM,RESUL : inteiro
+
+Inicio
+     CONT<-   1
+     escreval("Quer ver a Taboada de Qual numero?:")
+     leia(NUM)
+     repita
+     RESUL <- NUM * CONT
+     
+      escreval (NUM," X ",CONT," = ",RESUL)
+      CONT <- CONT + 1
+      ate ( CONT > 10 )
+
+Fimalgoritmo
+
+_____________________________________________________________________________ 
+_______________________________________________________________________________ 
