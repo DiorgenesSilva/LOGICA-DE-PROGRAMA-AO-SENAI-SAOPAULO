@@ -369,3 +369,29 @@ Inicio
 
 -----------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
+Algoritmo "C EStrutura Condicional aninhada,media do aluno"
+
+var
+   N1,N2,M: real
+
+Inicio
+   escreva ("Primeira nota")
+   leia ( N1 )
+   escreva ("Segunda Nota :")
+   leia ( N2 )
+   M <- (N1 + N2)/2
+   escreva ( "A media final  do aluno foi ",M:4:2)
+   se ( M >= 7 ) entao
+      escreval ("Aluno esta APROVADO ")
+                senao
+                se (M >= 5 ) e ( M < 7 )entao
+                escreval ("Aluno RECUPERAÇÃO ")
+                senao
+                escreval ( " Aluno REPROVADO")
+   fimse
+
+Fimalgoritmo
+--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
