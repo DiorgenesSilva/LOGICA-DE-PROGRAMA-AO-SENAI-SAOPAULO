@@ -393,5 +393,91 @@ Inicio
 Fimalgoritmo
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------
+Algoritmo "Calcule IMC Massa Corporal e altua em Metro s"
+
+var
+   massa:real
+   altura:real
+   imc:real
+
+Inicio
+      escreva ("Massa Kg:")
+      leia ( massa )
+      escreva ( "Altura Mts:")
+      leia ( altura )
+      imc <- massa /( altura ^2)
+      escreval("IMC=",imc:5:1)
+      se ( imc < 17)entao
+      escreval ("Karalho !! TA PASSANDO FOME  ")
+        senao
+        se (imc  >= 17 ) e ( imc < 18.5 )entao
+        escreva ("vAI COMER FILHA DA PUTA TA SÓ O PÓ ")
+          senao
+          se (imc >= 18.5) e ( imc < 25 ) entao
+          escreva ("TA NO PONTO HEIN SE DER EU COMO !!")
+            senao
+            se (imc >= 25 ) e (imc < 30 )entao
+            escreva ("TA AIMA DO PESO ,VAI FAZER ALGO PRA MUDAR ISSO MERDA!!")
+              senao (imc >= 30) e  ( imc < 35 ) entao
+              escreva ("OHH PORPETA VC NAO,VAI FAZER DIETA OU CORRER NAO??")
+                senao
+                 se (imc >= 35 ) e ( imc < 40 ) entao
+                 escreva ("CHUPETA DE BALEIA DO KARALHO,GORDONZILLA VAI EMAGRECER ")
+                  senao
+                  se (imc > 40)
+                  escreva ("NAO CONSEGUE NEM ADAR NÉ O GORDAO BALOFO,QUER UM EMPURRAO PRA DESCER ROLANDO")
+                fimse
+               fimse
+              fimse
+            fimse
+            fimse
+           fimse
+          fimse
+
+
+    Fimalgoritmo
+
+    ---------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------
+    Algoritmo "Criança Esperança estrutura faça-caso "
+
+Var
+  d,valor:inteiro
+
+Inicio
+       escreval("-------------------------------------------------")
+       escreval("~~~~~~~~~~~CRIANÇA ESPERANÇA~~~~~~~~~~~~~~~~~~")
+       escreval ("------------------------------------------------")
+       escreval("S2S2S2S2****MUITO OBRIGADO POR AJUDAR *****S2S2S2S2")
+       escreval("Aperte 1 para doar R$10,00")
+       escreval("Aperte 2 para doar R$25,00")
+       escreval("Aperte 3 para doar R$50,00 ")
+       escreval("Aperte 4 para digitar qualquer valor ")
+       escreval("Aperet 5 para Cancelar  ")
+       leia(d)
+       escolha(d)
+           caso 1
+           valor <- 10
+           caso 2
+           valor <- 25
+           caso 3
+           valor  <- 50
+           caso 4
+           escreva ("Qual o valor que voce deseja doar ? R$:")
+           leia(valor)
+           caso 5
+           valor <- 0
+           fimescolha
+      escreval( "Sua doação foi de R$:",valor , "MUITO OBRIGADO !!!")
+      escreval ("~~~~~~~~~~~~~***CRIANÇA ESPERANÇA AGRADECE***~~~~~~~~~~~~~~~~")
+      
+
+Fimalgoritmo
+
+------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+
+
 
 
