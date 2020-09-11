@@ -508,6 +508,48 @@ Fimalgoritmo
 ------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------- 
 
+Algoritmo " Contar ate 10 ESTRUTURA DE REPETIÇÃO enquanto-faça   "
+
+Var
+
+   CONTADOR: inteiro
+
+Inicio
+     CONTADOR <- 0
+     enquanto ( CONTADOR <= 10 ) faça
+     escreval(CONTADOR)
+     CONTADOR <- CONTADOR  + 1
+     
+     fimenquanto
+       escreval("TERMINEI  DE CONTAR ")
+
+
+
+Fimalgoritmo
+
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+Algoritmo " Contar ate 10 ESTRUTURA DE REPETIÇÃO enquanto-faça   "
+
+Var
+
+   CONTADOR: inteiro
+
+Inicio
+     CONTADOR <- 10
+     enquanto ( CONTADOR >= 0 ) faça
+     escreval(CONTADOR)
+     CONTADOR <- CONTADOR  - 1
+     
+     fimenquanto
+       escreval("TERMINEI  DE CONTAR ")
+
+
+
+Fimalgoritmo
+
+------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 
 
