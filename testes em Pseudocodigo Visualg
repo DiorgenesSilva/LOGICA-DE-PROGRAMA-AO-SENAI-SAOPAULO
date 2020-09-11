@@ -627,5 +627,28 @@ Fimalgoritmo
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
+Algoritmo " SOMADOR NUMERICO ,ENCONTRANDO MAIOR NUMERO INFORMADO "
+
+   CONTADOR,N,SOMA,MAIOR: inteiro
 
 
+Inicio
+     CONTADOR <- 1
+     SOMA <-- 0
+     enquanto ( CONTADOR <= 10 ) faça
+     escreva("Digite o", CONTADOR ,"O VALOR:")
+     LEIA( N )
+       se ( N > MAIOR) entao
+       MAIOR <- N
+       fimse
+        SOMA <- SOMA + N
+        CONTADOR <- CONTADOR + 1
+    
+    fimenquanto
+    escreval("A soma de todos os valores é",SOMA)
+    escreval("O maior valor digitado foi ",MAIOR)
+
+Fimalgoritmo
+
+-------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
