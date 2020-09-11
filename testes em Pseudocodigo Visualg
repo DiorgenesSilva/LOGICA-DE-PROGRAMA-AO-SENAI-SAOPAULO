@@ -677,4 +677,26 @@ Fimalgoritmo
 
 --------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
+Algoritmo "Soma de 2 numeros,ENQUANTO-FAÇA "
+
+Var
+   NUM,CONT,SOMA: inteiro
+   RESP: caractere
+
+Inicio
+     SOMA <- 0
+     RESP <- "S"
+        enquanto ( RESP = "S" ) faca
+          escreva("Digite    o valor ====> :")
+         leia (NUM)
+    SOMA <- SOMA + NUM
+        escreval("Voce quer continuar (S/N) ")
+        leia (RESP)
+      fimenquanto
+     escreval("A soma de todos os valores é",SOMA )
+
+Fimalgoritmo
+____________________________________________________________________________________________________
+____________________________________________________________________________________________________ 
+
 
