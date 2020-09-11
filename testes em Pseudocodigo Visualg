@@ -758,3 +758,27 @@ Fimalgoritmo
 
 _____________________________________________________________________________ 
 _______________________________________________________________________________ 
+Algoritmo "Contar Numeros negatiivos, , repita   "
+
+Var
+   NUM,CONT,TotN:inteiro
+   
+   
+Inicio
+    CONT <- 1
+    TotN <- 0
+     repita
+      escreval("Digite um numero")
+      leia( NUM )
+        se ( NUM < 0 ) entao
+        TotN <- TotN +1
+      fimse
+        CONT <- CONT +1
+        ate (CONT > 5 )
+        escreval (" Foram Digitados " ,TotN, " Numeros Negativos ")
+        
+
+Fimalgoritmo
+
+_________________________________________________________________ _____________________________________________________________________ 
+
