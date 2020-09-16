@@ -162,6 +162,88 @@ Inicio
 
 Fimalgoritmo
 
+Estruturas de Repetição - Para...faça
+A estrutura de repetição para..faça é utilizada da seguinte forma:
+
+para variavel* de inicio** ate final*** faca
+// Instruções para repetir
+fimpara
+
+* Nome da variável que irá controlar a repetição
+** Valor da variável onde iniciará a repetição
+*** valor da variável onde terminará a repetição
+
+Exemplo:
+para i de 1 ate 3 faca
+// Instruções para repetir
+fimpara
+
+A variável que irá controlar a repetição deve estar definida no bloco de variáveis.
+
+algoritmo "semnome"
+
+var
+cont,idade: Inteiro
+
+inicio
+
+para cont de 1 ate 10 faca
+ escreval("Informe sua idade:")
+  leia(idade)
+se(idade) < 20 entao
+
+se(idade) < 15 entao
+ escreval("Você é uma criança!")
+
+    fimse
+   fimse
+  fimpara
+fimalgoritmo
+
+Lembra do exemplo que utilizamos lá no início para verificar a idade de três pessoas e dizer se é maior ou menor de idade? Vejamos como fica utilizando a estrutura de repetição para..faça:
+
+var
+ idade,i:inteiro
+
+inicio
+ para i de 1 ate 3 faca
+    escreva("Informe sua idade:")
+  leia(idade)
+se(idade) >= 18 entao
+    escreva("Você é maior de idade!")
+senao
+    escreva("Você é menor de idade!")
+
+  fimse
+ fimpara
+fimalgoritmo
+
+Bem melhor, não acha? Então, a essência para se utilizar as estruturas de repetição é identificar onde há blocos que se repetem mais de uma vez no nosso algoritmo.
+
+algoritmo "semnome"
+
+var
+cont,idade: Inteiro
+
+inicio
+para cont de 1 ate 10 faca
+ escreval("Informe sua idade:")
+ leia(idade)
+se(idade) < 20 entao
+se(idade) < 15 entao
+ escreval("Você é uma criança!")
+
+   fimse
+  fimse
+ fimpara
+fimalgoritmo 
+
+escreval("=================================================")
+
+
+
+
+
 
 
 Estruturas de Repetição - Repita...até
