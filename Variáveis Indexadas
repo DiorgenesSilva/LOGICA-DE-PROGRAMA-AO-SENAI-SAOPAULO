@@ -1,0 +1,44 @@
+Variáveis indexadas são variáveis que contêm mais de um espaço alocado em memória.
+
+Variáveis comuns possuem apenas um valor
+Exemplo 
+ 15  <= inteiro 
+"DIOGO" =   literal 
+23.56 = REAL 
+ESTADOCIVIL = LOGICO  
+
+Variáveis indexadas possuem mais de um valor.
+
+IDADES = 12,23,43,1, <- inteiro
+"DIOGO","CASA","BRASIL" <- literal 
+23.34,0.32,7.0 <- literal
+ESTADO CIVIL <- TRUE,FALSE,TRUE,FALSE <- logico 
+
+Os valores contidos nas variáveis indexadas são organizados por índices. Ou seja, são identificados por um número que corresponde ao seu endereço em memória.
+
+indices
+"ANA" , "JOAO", "MARIA", "HELIO , "ANA", "SERGIO"
+ 1         2       3       4        5      6      <- INDICES 
+
+
+ Vamos considerar que estamos criando um algoritmo que precise cadastrar oito nomes de pessoas, três salários e seis idades. Para declarar essas variáveis, seria mais ou menos dessa forma:
+
+var
+
+nome1, nome2, nome3, nome4, nome5, nome6, nome7, nome8 : Literal
+salario1, salario2, salario3 : Real
+idade1, idade2, idade3, idade4, idade5, idade6:Inteiro
+
+Correto? Teríamos que criar várias variáveis para receber os diversos valores. E, se eu não soubesse o limite? Se fossem 100 variáveis, 1000 variáveis? Já pensou no trabalho que teríamos? É aí que entram as variáveis com índices, as chamadas variáveis indexadas.
+
+Então uma variável indexada deve ser declarada da mesma forma que uma variável simples, como já foi visto na lição de variáveis.
+
+Sua declaração ficaria da seguinte forma:
+
+var
+
+nomes: vetor [1..8] de Literal
+salarios: vetor [1..3] de Real
+idades: vetor [1..6] de Inteiro
+
+Melhor? Menos códigos? Economizamos mais códigos e deixamos bem mais organizadas nossas variáveis.

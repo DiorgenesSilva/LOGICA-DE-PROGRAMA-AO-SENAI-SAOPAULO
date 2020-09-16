@@ -1,0 +1,68 @@
+ Revisão
+Antes de mostrar tudo que você aprendeu no curso, que tal fazer uma breve revisão de tudo que vimos? Topa? Então vamos lá!
+
+Representação de um algoritmo
+Temos dois tipos de representações, que são:
+
+fluxograma e Pseudocódigo
+Fluxograma é representado por formas gráficas, e o pseudocódigo é representado como uma narrativa do que está acontecendo, ele é a ponte entre a linguagem falada e a linguagem de máquina(programação).
+
+Tipo de dados
+Temos quatro tipos principais de dados, que são:
+
+inteiro, real, lógico e literal.
+
+
+Revisão  
+
+Tipo de dados
+Inteiro: aceitam somente números inteiros positivos e negativos e NÃO aceitam números reais. Ex.: 0 1 4 35 -54.
+
+Reais: aceitam valores positivos e negativos Podem ser números reais, ou inteiros. Ex.: 1.3 2 4.0 -5.4.
+
+Literal: podem ser letras, números ou caracteres especiais. Ou seja, pode ser qualquer tipo de valor desde que esteja entre aspas duplas. Ex.: "Algoritmo" "Senai" "3432" "43Ab" "&sp3c1@l".
+
+Lógico: são respostas para uma pergunta, em que deverá ter apenas duas possíveis respostas: sim ou não. Porém sempre resultam como VERDADEIRO ou FALSO. Exemplo: Está Chovendo? Sim (Verdadeiro), Maior de idade? 0 (Falso).
+
+Variáveis
+O que são: espaços de memória do computador destinados ao armazenamento de dados.
+
+Como usar: no programa, eu devo dar um nome a ela e informar qual o seu tipo de dado. E, no decorrer do algoritmo, atribuir o valor a ela quando necessário.
+
+var
+
+nomeDaVariavel:TipoDeDado
+
+Variáveis
+Expressões Aritméticas
+Podemos trabalhar com as principais operações matemáticas, que são:
+
+Revisão
+Expressões Aritméticas
+Expressões aritméticas são as expressões que, utilizando operadores aritméticos, resultam em um valor inteiro ou real. Ou seja, o resultado sempre será um número, seja ele do tipo real ou do tipo inteiro.
+
+Exemplos:
+
+2+3+4+1-9 =1
+
+10*3-5 = 25
+
+(3-1)*(3+2)/2 = 5
+
+Expressões Literais
+Expressões literais são expressões de concatenação, ou seja, elas juntam valores através do operador de concatenação que, no VisuAlg, é a virgula (,).
+
+Exemplos:
+
+Meu nome é Anderson
+
+Meu sobrenome é Aguiar
+
+Meu nome completo é Anderson Aguiar
+
+Expressões Lógicas
+As expressões lógicas servem para compararmos valores e dizer se o resultado é VERDADEIRO ou FALSO.
+
+No programa, eu devo dar um nome a ela e informar qual o seu tipo de dado. E, no decorrer do algoritmo, atribuir o valor a ela quando necessário.
+
+Além disso, expressões lógicas podem conter expressões aritméticas dentro delas
