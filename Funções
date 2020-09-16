@@ -1,0 +1,152 @@
+Funções
+Imagine que as funções são um algoritmo dentro de outro, que irão nos auxiliar a executar alguma tarefa comum.
+
+Exemplo:
+
+verificar se determinada variável está preenchida;
+imprimir os números de 1 a 10;
+verificar se determinada idade pertence a uma pessoa;
+maior ou menor de idade.
+As vantagens de se utilizar funções são a reutilização e a economia de código que teremos, ou seja, não precisamos ficar digitando sempre o mesmo bloco de código para imprimir os números de 1 a 10 por exemplo, basta chamar a função que faz isso.
+
+Pelo jeito você gostou mesmo de trabalhar sua lógica, não é mesmo? Você é um campeão só por ter chegado até aqui. Então, como recompensa, você conhecerá o mundo das funções, conteúdo bônus para agregar ainda mais ao seu conhecimento.
+
+Então, aqui, iremos entender como funcionam os subalgoritmos ou funções.
+
+Vamos ao que interessa:O conteúdo!
+
+Existem dois tipos de funções:
+Funções predefinidas ou nativas
+
+São funções que já existem na linguagem, são criadas com o propósito de nos poupar tempo e trabalho. Ex.: raiz quadrada, potencialização, quantidade de caracteres em determinado literal.
+
+Funções definidas pelo usuário
+
+Como o próprio nome já diz, são funções que o usuário irá criar. A maioria das linguagens de programação nos dá a possibilidade para ter tal autonomia, o que facilita e muito o nosso trabalho. Ex.: somar um número, emitir mensagens, verificar se um número é maior-menor-igual a outro, entre outros.
+
+No Visualg
+Agora vamos ver na prática como elas funcionam.
+Vamos começar pelas funções nativas e depois veremos as definidas por nós.
+No VisuAlg, está disponível uma série de funções que não temos a necessidade de criar.
+
+Vamos ver, a seguir, algumas funções que podemos utilizar disponibilizadas pelo VisuAlg:
+
+Numpcarac(n:Inteiro ou real):caracter	Converte um numero inteiro ou real para caractere
+PI:real	Valor de Pi
+Pos(sub,c:caracter):inteiro	Retorna a posição do caratere
+Quad(valor:real):real	Elevado ao quadrado
+Radpgrau(valor:real):real	Converte Radiano para grau
+Raizq(valor:real):real	Raiz quadrada
+Rand:real	Gerador de números aletórios entre 0 e 1
+Randi(limite:inteiro):inteiro	Gerador de números aletórios inteiros com um limite determinado
+Sen(valor:real):real	Seno
+Tan(valor:real):real	Tangente
+
+
+
+Para utilizá-las basta chamar qualquer uma delas. Para exemplificar, utilizaremos uma função que sorteia números, como listado abaixo:
+
+algoritmo "funcoesnativas"
+
+inicio
+
+//utilizará a função nativa de sorteio.
+//Sorteará números de 0 à 10
+escreval( randi(11))
+
+fimalgoritmo
+
+Faça o teste escrevendo esse algoritmo no VisuAlg.
+
+Agora vamos entender as funções definidas pelo usuário.
+
+Como são compostas
+Identificador: nome da função.
+
+Parâmetros: valores que nossa função irá receber.
+
+Tipo de retorno da função: real, inteiro, lógico, literal.
+
+Declaração de variáveis locais: idêntica à declaração de variáveis globais. As variáveis declaradas localmente têm validade apenas dentro do escopo da função, ou seja, fora dela não conseguimos utilizá-la.
+
+Retorne: local onde é colocada a variável de retorno que enviará o valor para onde a função foi chamada.
+
+Função <identificador>(<lista de parâmetros>: <tipo dos parâmetros>): <tipo de retorno>.
+
+Var <declaração das variáveis locais da função> //inicio da execução da função.
+
+Inicio <instruções> //valor a ser retornado no algoritmo, ao chamar a função.
+
+Retorne <valor de retorno>
+fimfuncao
+.
+
+
+
+Funções
+Vamos utilizar o nosso exemplo de verificar se determinada pessoa é maior ou menor de idade.
+
+algoritmo "funcoes"
+
+var
+
+numero1,numero2: inteiro 
+//aqui começa a nossa função, é aqui que ela é declarada 
+funcao somar(numero1, numero2:inteiro):inteiro
+
+var
+
+inicio
+
+retorne numero1+numero2
+
+fimfuncao
+
+
+inicio
+
+leia(numero1) 
+leia(numero2) 
+//aqui começa a nossa função, é aqui que ela é declarada
+
+escreval( somar(numero1,numero2))
+
+fimalgoritmo
+
+Agora que vimos o que são e como funcionam as funções, vamos exercitar!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
