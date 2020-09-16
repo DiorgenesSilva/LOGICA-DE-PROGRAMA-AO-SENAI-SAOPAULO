@@ -38,6 +38,7 @@ Expressões Aritméticas
 Podemos trabalhar com as principais operações matemáticas, que são:
 
 Revisão
+
 Expressões Aritméticas
 Expressões aritméticas são as expressões que, utilizando operadores aritméticos, resultam em um valor inteiro ou real. Ou seja, o resultado sempre será um número, seja ele do tipo real ou do tipo inteiro.
 
@@ -66,3 +67,55 @@ As expressões lógicas servem para compararmos valores e dizer se o resultado �
 No programa, eu devo dar um nome a ela e informar qual o seu tipo de dado. E, no decorrer do algoritmo, atribuir o valor a ela quando necessário.
 
 Além disso, expressões lógicas podem conter expressões aritméticas dentro delas
+
+Revisão
+Expressões Lógicas
+Operadores relacionais lógicos:
+
+Símbolo	Operador
+>	Maior
+<	Menor
+>=	Maior igual
+<=	Menor Igual
+=	Igual
+<>	Diferente
+Estrutura de Condição
+São ações que devemos tomar, e são definidas por expressões lógicas, em que o programa irá executar a estrutura de acordo com as respostas (VERDADEIRO ou FALSO).
+
+Se está chovendo = pegar um guarda-chuva.
+
+Senão = não preciso de um guarda-chuva
+
+Estrutura de condição
+Estrutura de Repetição
+Temos três principais estruturas de repetição, que são:
+
+Para...faça
+Enquanto...faça
+Repita...até
+O que são? São conjuntos de comandos que repetem instruções em uma quantidade predeterminada ou não. Ou seja, são blocos de códigos que se repetirão sempre que se enquadrarem nos blocos condicionais a eles atribuídos.
+
+Quando utilizaremos? Sempre que precisarmos fazer coisas repetitivas.
+
+Revisão
+Variáveis Indexadas
+Variáveis indexadas são variáveis que contém mais de um espaço alocado em memória.
+
+[tamanhoInicial..tamanhoFinal]: tipoDeDado
+
+Notebook
+Exemplo
+
+var
+
+nomes:vetor[1..8] de Literal
+salarios:vetor[1..3] de Real
+idades:vetor[1..6] de Inteiro
+
+inicio
+
+nomes[1] <- "Anderson"
+nomes[2] <- "Senai"
+nomes[3] <- "João"
+nomes[4] <- "Maria"
+  escreval(nomes[1]) //irá imprimir "Anderson"
